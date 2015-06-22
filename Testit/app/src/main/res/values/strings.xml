@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Testit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act2">Act2</string>
+    <string name="title_activity_act3">Act3</string>
+    <string name="title_activity_act4">Act4</string>
+    <string name="title_activity_act5">Act5</string>
+    <string name="title_activity_act6">Act6</string>
+    <string name="title_activity_act7">Act7</string>
+    <string name="title_activity_act8">Act8</string>
+    <string name="title_activity_act1">Act1</string>
+    <string name="password_text">Password:</string>
+    <string name="count_text">Count:</string>
+    <string name="enterbtn_text">Enter</string>
+    <string name="name_text">Name</string>
+    <string name="user_text">User Name:</string>
+    <string name="logintitle_text">Login</string>
+    <string name="title_activity_act9">Act9</string>
+    <string name="title_activity_act10">Act10</string>
+    <string name="title_activity_act11">Act11</string>
+    <string name="title_activity_act12">Act12</string>
+    <string name="title_activity_act13">Act13</string>
+    <string name="title_activity_act14">Act14</string>
+
+    <string-array name="SpinnerList">
+        <item>Canada</item>
+        <item>Mexico</item>
+        <item>USA</item>
+    </string-array>
+    <string name="title_activity_act15">Act15</string>
+</resources>

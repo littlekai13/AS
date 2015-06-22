@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.it.testit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+ <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+ <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.it.testit.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act2"
+            android:label="@string/title_activity_act2" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act3"
+            android:label="@string/title_activity_act3" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act4"
+            android:label="@string/title_activity_act4" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act5"
+            android:label="@string/title_activity_act5" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act6"
+            android:label="@string/title_activity_act6" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act7"
+            android:label="@string/title_activity_act7" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act8"
+            android:label="@string/title_activity_act8" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act1"
+            android:label="@string/title_activity_act1" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act9"
+            android:label="@string/title_activity_act9" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act10"
+            android:label="@string/title_activity_act10" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act11"
+            android:label="@string/title_activity_act11" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act12"
+            android:label="@string/title_activity_act12" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act13"
+            android:label="@string/title_activity_act13" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act13" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act14"
+            android:label="@string/title_activity_act14" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act14" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.it.testit.Act15"
+            android:label="@string/title_activity_act15" >
+            <intent-filter>
+                <action android:name="com.example.it.testit.Act15" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
